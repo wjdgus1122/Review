@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap{
+    width: 500px;
+    border: 2px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 50px auto;
+}
+
+.title_wrap{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #dbdbdb;
+}
+
+.s_title_wrap{
+    display: flex;
+    align-items: center;
+}
+
+.title_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 15px;
+    background-image: url(https://ouch-cdn2.icons8.com/m8m7BHHL8LBQoaGE4Sj35jIpQ-8yw_OTzsJ3fFKDGmA/rs:fit:256:256/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvNzQ3/LzIzYzU0ZTdjLTlk/ZTItNDM0Ni1iYzMz/LTRmMjlmODJkMzNj/My5zdmc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 900;
+    color: #1d1d1d;
+}
+
+.bm{
+    font-size: 25px;
+    color: lightgray;
+    margin-right: 15px;
+}
+
+.img_box{
+    height: 500px;
+    background-color: gray;
+    background-image: url(https://nitter.domain.glass/pic/media%2FEKXFF0OUEAAcJdd.jpg%3Fname%3Dsmall);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input_wrap{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-top:  2px solid #dbdbdb;
+    border-bottom: 2px solid #dbdbdb;
+
+}
+
+.input_wrap input{
+    display: none;
+}
+
+.nht{
+    font-size: 25px;
+    color: #1d1d1d;
+    margin: 0 20px;
+}
+
+.fht{
+    font-size: 25px;
+    color: red;
+    display: none;
+}
+
+.cmt_ic{
+    font-size: 25px;
+    color: #1d1d1d;
+}
+
+.input_wrap_2{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #dbdbdb;
+}
+
+.input_wrap_2 input{
+    all: unset;
+    border: none;
+    font-size: 20px;
+    color: #dbdbdb;
+    margin-left: 20px;
+}
+
+.input_wrap_2 button{
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgba(0, 0, 255, 0.5);
+    margin-right: 20px;
+    background-color: white;
+}
+
+.comment{
+    padding: 10px 20px;
+}
+
+.comment h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.comment h5:last-child{
+    margin-bottom: 0;
+}
+
+#htck:checked ~ .lable .nht{
+    display: none;
+}
+
+#htck:checked ~ .lable .fht{
+    display: flex;
+}
